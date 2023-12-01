@@ -1,0 +1,9 @@
+
+Nas figuras planas você deverá calcular área e perímetro.
+As figuras planas tem os métodos calcularPerimetro e calcularArea
+
+Nas figuras espaciais você deverá calcular volume e área superficial
+As figuras espaciais tem os métodos calcularVolume e calularAreaSuperficial
+
+As figuras recebem parâmetros via método Construtor.
+
