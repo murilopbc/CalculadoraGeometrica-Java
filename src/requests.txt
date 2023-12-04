@@ -1,9 +1,16 @@
 
-Nas figuras planas você deverá calcular área e perímetro.
-As figuras planas tem os métodos calcularPerimetro e calcularArea
+A aplicação deve conter um menu implementado com switch/case.
 
-Nas figuras espaciais você deverá calcular volume e área superficial
-As figuras espaciais tem os métodos calcularVolume e calularAreaSuperficial
+O usuário primeiramente deve digitar seu nome, a aplicação constantemente deve se referir ao nome do usuário quando solicitar para ele escolher entre as opções.
 
-As figuras recebem parâmetros via método Construtor.
+O programa solicita para o usuário escolher entre figuras planas e espaciais.
 
+O programa solicita para o usuário escolher determinada figura geométrica.
+
+O programa executa até o usuário escolher a opção de sair.
+
+O programa só aceita números maiores que 0.
+
+O programa não aceitas letras em lugares que devem ser números.
+
+O programa não aceita opções invalidas no menu.

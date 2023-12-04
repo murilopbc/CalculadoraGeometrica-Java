@@ -19,7 +19,7 @@ public class Circulo {
     }
 
     public String retornaResumoDaForma(int valor){
-        String resumo = String.format("Raio do círculo: % .2f\nÁrea do Círculo %.2f\nPerímetro do Círculo: %.2f", this.raio, this.calcularArea(), this.calcularPerimetro());
+        String resumo = String.format("Raio do círculo: % .2f\nÁrea do Círculo: %.2f\nPerímetro do Círculo: %.2f", this.raio, this.calcularArea(), this.calcularPerimetro());
 
         if (valor % 2 == 0){
             return resumo.toUpperCase();

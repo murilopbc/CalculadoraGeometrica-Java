@@ -17,5 +17,13 @@ public class Quadrado {
         return Math.pow(this.lado, 2);
     //  Math.pow é uma função que serve para elevar números.
     }
+    public String retornaResumoDaForma(int valor){
+        String resumo = String.format("Lado do Quadrado: % .2f\nÁrea do Quadrado: %.2f\nPerímetro do Quadrado: %.2f", this.lado, this.calcularArea(), this.calcularPerimetro());
+
+        if (valor % 2 == 0){
+            return resumo.toUpperCase();
+        }
+        return resumo.toLowerCase();
+    }
 
 }
